@@ -5,7 +5,7 @@ float d=100;
 float h=20;
 float sr;
 
-float psi=10;
+float psi=60;
 
 float x1, y1, x2, y2;
 
