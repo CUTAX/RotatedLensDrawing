@@ -32,9 +32,9 @@ class IntersectionOfEllipseAndLine {
       isRealNumber=false;
     } else {
       isRealNumber=true;
-      x1=(-B+sqrt(D))/(2*A);
+      x1=(-B-sqrt(D))/(2*A);
       y1=c*x1+d;
-      x2=(-B-sqrt(D))/(2*A);
+      x2=(-B+sqrt(D))/(2*A);
       y2=c*x2+d;
     }
   }
